@@ -1,0 +1,28 @@
+.container {
+  max-width: 120rem;
+  margin: 3rem auto;
+  background-color: white;
+  min-height: 50rem;
+  display: grid;
+  grid-template-rows: 7rem 1fr 9rem;
+  grid-template-columns: 30rem 1fr;
+  grid-gap: 30px;
+}
+.header {
+  background-color: #0E416B;
+  padding: 20px;
+  color:white;
+  grid-column: 1/-1;
+}
+.sidebar {
+  background-color: orangered;
+
+}
+.main-content {
+  background-color: orangered;
+}
+.footer {
+  background-color: #0E416B;
+  grid-column: 1/-1;
+}
+
