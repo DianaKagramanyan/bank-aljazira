@@ -11,12 +11,14 @@
 .header {
   background-color: #0E416B;
   padding: 20px;
-  color:white;
   grid-column: 1/-1;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .sidebar {
-  background-color: orangered;
-
+  background-color: greenyellow;
 }
 .main-content {
   background-color: orangered;

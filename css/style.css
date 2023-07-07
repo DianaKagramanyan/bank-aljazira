@@ -30,11 +30,14 @@ body {
 .header {
   background-color: #0E416B;
   padding: 20px;
-  color: white;
-  grid-column: 1/-1; }
+  grid-column: 1/-1;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 .sidebar {
-  background-color: orangered; }
+  background-color: greenyellow; }
 
 .main-content {
   background-color: orangered; }
@@ -42,3 +45,22 @@ body {
 .footer {
   background-color: #0E416B;
   grid-column: 1/-1; }
+
+.logo {
+  height: 3.25rem; }
+
+.service1__icon {
+  height: 2rem;
+  width: 2rem;
+  fill: white; }
+
+.serv-catalog {
+  color: white; }
+
+.login__icon {
+  height: 2rem;
+  width: 2rem;
+  fill: white; }
+
+.user-login {
+  color: white; }
