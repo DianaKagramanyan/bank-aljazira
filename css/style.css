@@ -49,10 +49,10 @@ body {
   border: .5px solid  #999; }
 
 .main-content {
-  background-color: #fff;
+  background-color: #f0eeee;
   margin-right: 2rem;
   display: grid;
-  grid-template-rows: 5rem 5rem 1fr 1fr 1fr 6rem;
+  grid-template-rows: 5rem 2rem 1fr 1fr 1fr 6rem;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem; }
 
@@ -171,28 +171,36 @@ body {
     margin: 1rem; }
 
 .user-nav {
-  background-color: violet;
+  background-color: #f0eeee;
   grid-column: 1/-1;
-  display: flex; }
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
   .user-nav__showing {
-    background-color: blue; }
-  .user-nav__icon-box {
-    background-color: orangered; }
-  .user-nav__icon {
-    background-color: #777777;
-    height: 1rem;
-    width: 1rem; }
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: #100d0d; }
+  .user-nav__icon1 {
+    height: 3.5rem;
+    width: 3.5rem;
+    fill: #0E416B;
+    background-color: white;
+    border: 1px solid #0E416B; }
+  .user-nav__icon2 {
+    background-color: white;
+    height: 3.5rem;
+    width: 3rem;
+    fill: #0E416B; }
 
 .description {
-  background-color: darkcyan; }
+  background-color: white;
+  border-radius: .5rem; }
   .description__icon {
     height: 5rem;
     width: 5rem;
     fill: #0E416B; }
 
-.description2 {
-  background-color: darkgray; }
-
 .page {
-  background-color: olive;
+  background-color: white;
+  border-radius: .5rem;
   grid-column: 1/-1; }

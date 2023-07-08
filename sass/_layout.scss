@@ -32,11 +32,11 @@
 }
 
 .main-content {
-  background-color: #fff;
+  background-color: #f0eeee;
   margin-right: 2rem;
   display: grid;
   //grid-template-rows: 5rem 5rem 30rem 30rem 30rem 6rem;
-  grid-template-rows: 5rem 5rem 1fr 1fr 1fr 6rem;
+  grid-template-rows: 5rem 2rem 1fr 1fr 1fr 6rem;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
 }
