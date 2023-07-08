@@ -180,11 +180,39 @@
 .description {
   background-color: white;
   border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+ // justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  margin-bottom: .5rem;
 
-  &__icon {
-    height: 5rem;
-    width: 5rem;
+  &__icon1 {
+    height: 10rem;
+    width: 10rem;
+    fill: #1983da;
+    background-color: #f0eeee;
+    border-radius: 50%;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  &__icon2 {
+    height: 10rem;
+    width: 10rem;
+    fill: #999;
+    background-color: #f0eeee;
+    border-radius: 50%;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  &__icon3 {
+    height: 10rem;
+    width: 10rem;
     fill: #0E416B;
+    background-color: #f0eeee;
+    border-radius: 50%;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
   }
   &__catalog {
 
@@ -194,12 +222,11 @@
   }
 }
 .paragraph {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+
 
 }
-//.description2 {
-//
-//}
-
 .page {
   background-color: white;
   border-radius: .5rem;
