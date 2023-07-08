@@ -1,22 +1,63 @@
+.main-icon {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .logo {
-  height: 3.25rem;
+  height: 4.5rem;
+  margin-right: 2rem;
 }
 
 .icon-service-1 {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .service1__icon {
   height: 2rem;
   width: 2rem;
   fill: white;
+  margin-right: 1rem;
+}
+
+.service2__icon {
+  height: 8rem;
+  width: 8rem;
+  fill: #0E416B;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 20%;
+  background-color:#fff;
+}
+
+.heading-primary {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: lighter;
 }
 
 .serv-catalog {
-color: white;
+  color: white;
+  font-size: 2rem;
 }
 
 .icon-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -24,10 +65,13 @@ color: white;
   height: 2rem;
   width: 2rem;
   fill: white;
+
 }
 
 .user-login {
   color: white;
+  font-size: 2rem;
+  padding: 0 1rem;
 }
 
 

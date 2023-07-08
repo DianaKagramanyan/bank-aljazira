@@ -1,12 +1,13 @@
 .container {
   max-width: 120rem;
   margin: 3rem auto;
-  background-color: white;
+ // background-color: #faf9f9;
+  background-color: #ccc;
   min-height: 50rem;
   display: grid;
-  grid-template-rows: 7rem 1fr 9rem;
+  grid-template-rows: 7rem 8rem 1fr 9rem;
   grid-template-columns: 30rem 1fr;
-  grid-gap: 30px;
+  grid-gap: 2rem;
 }
 .header {
   background-color: #0E416B;
@@ -17,11 +18,20 @@
   justify-content: space-between;
   align-items: center;
 }
+.services-catalog {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 .sidebar {
-  background-color: greenyellow;
+  background-color: #fff;
+  border-radius: 2%;
+  margin-left: 2rem;
 }
 .main-content {
-  background-color: orangered;
+  background-color: #fff;
+  margin-right: 2rem;
 }
 .footer {
   background-color: #0E416B;
