@@ -1,8 +1,7 @@
 .container {
   max-width: 120rem;
   margin: 3rem auto;
- // background-color: #faf9f9;
-  background-color: #ccc;
+  background-color: #f0eeee;
   min-height: 50rem;
   display: grid;
   grid-template-rows: 7rem 8rem 1fr 9rem;
@@ -24,11 +23,14 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .sidebar {
   background-color: #fff;
   border-radius: 2%;
   margin-left: 2rem;
+  border: .5px solid #0E416B;
 }
+
 .main-content {
   background-color: #fff;
   margin-right: 2rem;

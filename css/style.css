@@ -20,7 +20,7 @@ body {
 .container {
   max-width: 120rem;
   margin: 3rem auto;
-  background-color: #ccc;
+  background-color: #f0eeee;
   min-height: 50rem;
   display: grid;
   grid-template-rows: 7rem 8rem 1fr 9rem;
@@ -45,7 +45,8 @@ body {
 .sidebar {
   background-color: #fff;
   border-radius: 2%;
-  margin-left: 2rem; }
+  margin-left: 2rem;
+  border: .5px solid #0E416B; }
 
 .main-content {
   background-color: #fff;
@@ -81,7 +82,8 @@ body {
   margin: 2rem;
   padding: 1rem;
   border-radius: 20%;
-  background-color: #fff; }
+  background-color: #fff;
+  border: .5px solid #0E416B; }
 
 .heading-primary {
   display: flex;
@@ -91,7 +93,8 @@ body {
 .heading-primary-main {
   display: block;
   font-size: 2rem;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  margin-bottom: 1rem; }
 
 .heading-primary-sub {
   display: block;
@@ -116,3 +119,26 @@ body {
   color: white;
   font-size: 2rem;
   padding: 0 1rem; }
+
+.service {
+  font-size: 1.5rem;
+  list-style: none;
+  margin: 2.5rem;
+  color: black; }
+
+.side-nav {
+  font-size: 1.4rem;
+  list-style: none;
+  margin-top: 3.5rem;
+  margin-right: .5rem; }
+  .side-nav__link:link, .side-nav__link:visited {
+    color: grey;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center; }
+  .side-nav__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .75rem;
+    fill: currentColor; }

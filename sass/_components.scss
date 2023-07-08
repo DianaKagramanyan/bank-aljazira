@@ -1,3 +1,5 @@
+// HEADER
+
 .main-icon {
   display: flex;
   justify-content: flex-start;
@@ -29,6 +31,7 @@
   padding: 1rem;
   border-radius: 20%;
   background-color:#fff;
+  border: .5px solid #0E416B;
 }
 
 .heading-primary {
@@ -41,6 +44,7 @@
   display: block;
   font-size: 2rem;
   font-family: sans-serif;
+  margin-bottom: 1rem;
 }
 
 .heading-primary-sub {
@@ -72,6 +76,46 @@
   color: white;
   font-size: 2rem;
   padding: 0 1rem;
+}
+
+
+
+// SIDEBAR
+.service{
+  font-size: 1.5rem;
+  list-style: none;
+  margin: 2.5rem;
+  color: black;
+}
+.side-nav {
+  font-size: 1.4rem;
+  list-style: none;
+  margin-top: 3.5rem;
+  margin-right: .5rem;
+
+
+  &__item {
+    //margin-bottom: .5rem;
+    //margin-top:1.5rem;
+  }
+
+  &__link:link,
+  &__link:visited {
+    color: grey;
+    text-decoration: none;
+    padding: 1rem 3rem;
+
+    display: flex;
+    align-items: center;
+  }
+
+
+  &__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .75rem;
+    fill: currentColor;
+  }
 }
 
 
