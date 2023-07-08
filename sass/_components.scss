@@ -121,19 +121,29 @@
 //MAIN CONTENT
 
 .search {
-  background-color: yellow;
+  background-color: #f0eeee;
+  border-radius: .5rem;
   grid-column: 1/-1;
+  display: flex;
+  align-items: flex-start;
 
   &__input {
-  }
-  &__button {
-    background-color: green;
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: inherit;
+    background-color: white;
+    border: .5px solid  #999;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    height: 3.5rem;
+    width: 100%;
+    margin-right: -4.25rem;
   }
   &__icon {
-    background-color: aqua;
     height: 2rem;
     width: 2rem;
-    //fill: ;
+    fill: #999;
+    margin: 1rem;
   }
 }
 
@@ -159,6 +169,21 @@
 
 .description {
   background-color: darkcyan;
+
+  &__icon {
+    height: 5rem;
+    width: 5rem;
+    fill: #0E416B;
+  }
+  &__catalog {
+
+  }
+  &__name {
+
+  }
+}
+.paragraph {
+
 }
 .description2 {
   background-color: darkgray;
