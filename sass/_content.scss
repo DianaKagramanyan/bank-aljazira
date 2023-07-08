@@ -1,0 +1,130 @@
+//MAIN CONTENT
+
+.search {
+  background-color: #f0eeee;
+  border-radius: .5rem;
+  grid-column: 1/-1;
+  display: flex;
+  align-items: flex-start;
+
+  &__input {
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: inherit;
+    background-color: white;
+    border: .5px solid #999;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    height: 3.5rem;
+    width: 100%;
+    margin-right: -4.25rem;
+  }
+
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+    fill: #999;
+    margin: 1rem;
+  }
+}
+
+.user-nav {
+  background-color: #f0eeee;
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__showing {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: #100d0d;
+  }
+
+  &__icon-box {
+  }
+
+  &__icon1 {
+    height: 3.5rem;
+    width: 3.5rem;
+    fill: #0E416B;
+    background-color: white;
+    border: 1px solid #0E416B;
+  }
+
+  &__icon2 {
+    background-color: white;
+    height: 3.5rem;
+    width: 3rem;
+    fill: #0E416B;
+  }
+}
+
+.description {
+  background-color: white;
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  margin-bottom: .5rem;
+  position: relative;
+
+  .description::before {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 3px;
+    background-color: red;
+  }
+
+  &__icon1 {
+    height: 10rem;
+    width: 10rem;
+    fill: #1983da;
+    background-color: #f0eeee;
+    border-radius: 50%;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  &__icon2 {
+    height: 10rem;
+    width: 10rem;
+    fill: #999;
+    background-color: #f0eeee;
+    border-radius: 50%;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  &__icon3 {
+    height: 10rem;
+    width: 10rem;
+    fill: #0E416B;
+    background-color: #f0eeee;
+    border-radius: 50%;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  &__catalog {
+
+  }
+  &__catalog ::before {
+
+  }
+
+  &__name {
+
+  }
+}
+
+.paragraph {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+
+
+}

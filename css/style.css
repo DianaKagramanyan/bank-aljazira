@@ -158,7 +158,7 @@ body {
     font-size: 1.5rem;
     color: inherit;
     background-color: white;
-    border: .5px solid  #999;
+    border: .5px solid #999;
     padding: .5rem 2rem;
     border-radius: .5rem;
     height: 3.5rem;
@@ -199,7 +199,16 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 3rem;
-  margin-bottom: .5rem; }
+  margin-bottom: .5rem;
+  position: relative; }
+  .description .description::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: red; }
   .description__icon1 {
     height: 10rem;
     width: 10rem;
