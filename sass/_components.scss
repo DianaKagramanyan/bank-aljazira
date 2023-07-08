@@ -118,4 +118,58 @@
   }
 }
 
+//MAIN CONTENT
+
+.search {
+  background-color: yellow;
+  grid-column: 1/-1;
+
+  &__input {
+  }
+  &__button {
+    background-color: green;
+  }
+  &__icon {
+    background-color: aqua;
+    height: 2rem;
+    width: 2rem;
+    //fill: ;
+  }
+}
+
+.user-nav {
+  background-color: violet;
+  grid-column: 1/-1;
+  display: flex;
+
+  &__showing {
+    background-color: blue;
+  }
+
+  &__icon-box{
+    background-color: orangered;
+
+  }
+  &__icon{
+    background-color: #777777;
+    height: 1rem;
+    width: 1rem;
+  }
+}
+
+.description {
+  background-color: darkcyan;
+}
+.description2 {
+  background-color: darkgray;
+}
+
+.page {
+  background-color: olive;
+  grid-column: 1/-1;
+}
+
+
+
+
 
