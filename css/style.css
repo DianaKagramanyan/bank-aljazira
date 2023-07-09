@@ -241,7 +241,8 @@ body {
 .paragraph {
   font-size: 1.4rem;
   font-family: sans-serif;
-  color: gray; }
+  color: gray;
+  text-align: justify; }
 
 .page {
   background-color: white;
