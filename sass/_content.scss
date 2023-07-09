@@ -68,17 +68,17 @@
   align-items: center;
   padding: 3rem;
   margin-bottom: .5rem;
-  position: relative;
+  //position: relative;
 
-  .description::before {
-    content: "";
-    position: absolute;
-    top:0;
-    left:0;
-    height: 100%;
-    width: 3px;
-    background-color: red;
-  }
+  //.description::before {
+  //  content: "";
+  //  position: absolute;
+  //  top:0;
+  //  left:0;
+  //  height: 100%;
+  //  width: 3px;
+  //  background-color: red;
+  //}
 
   &__icon1 {
     height: 10rem;
@@ -111,20 +111,17 @@
   }
 
   &__catalog {
-
-  }
-  &__catalog ::before {
-
+    margin-bottom: 1rem;
   }
 
   &__name {
-
+    margin-bottom: 1rem;
   }
 }
 
 .paragraph {
   font-size: 1.4rem;
   font-family: sans-serif;
-
+  color: gray;
 
 }

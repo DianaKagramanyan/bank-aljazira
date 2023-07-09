@@ -125,9 +125,9 @@ body {
   padding: 0 1rem; }
 
 .service {
+  margin: 2.5rem;
   font-size: 1.5rem;
   list-style: none;
-  margin: 2.5rem;
   color: black; }
 
 .side-nav {
@@ -199,16 +199,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 3rem;
-  margin-bottom: .5rem;
-  position: relative; }
-  .description .description::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 3px;
-    background-color: red; }
+  margin-bottom: .5rem; }
   .description__icon1 {
     height: 10rem;
     width: 10rem;
@@ -233,10 +224,15 @@ body {
     border-radius: 50%;
     padding: 1.5rem;
     margin-bottom: 3rem; }
+  .description__catalog {
+    margin-bottom: 1rem; }
+  .description__name {
+    margin-bottom: 1rem; }
 
 .paragraph {
   font-size: 1.4rem;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  color: gray; }
 
 .page {
   background-color: white;
