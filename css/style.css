@@ -18,10 +18,7 @@ body {
   background-color: #777; }
 
 .container {
-  max-width: 120rem;
-  margin: 3rem auto;
   background-color: #f0eeee;
-  min-height: 50rem;
   display: grid;
   grid-template-rows: 7rem 8rem 1fr 9rem;
   grid-template-columns: 30rem 1fr;
