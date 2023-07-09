@@ -58,7 +58,6 @@
     fill: #0E416B;
   }
 }
-
 .description {
   background-color: white;
   border-radius: .5rem;
@@ -67,6 +66,8 @@
   align-items: center;
   padding: 3rem;
   margin-bottom: .5rem;
+  box-shadow: 2px 4px 12px rgba(11,68,70, .25);
+  border-left: 5px solid #1983da;
 
   &__icon1 {
     height: 10rem;

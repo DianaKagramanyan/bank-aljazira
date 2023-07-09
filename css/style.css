@@ -43,7 +43,7 @@ body {
   background-color: #fff;
   border-radius: .5rem;
   margin-left: 2rem;
-  border: .5px solid  #999; }
+  box-shadow: 2px 4px 12px rgba(11, 68, 70, 0.25); }
 
 .main-content {
   background-color: #f0eeee;
@@ -205,7 +205,9 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 3rem;
-  margin-bottom: .5rem; }
+  margin-bottom: .5rem;
+  box-shadow: 2px 4px 12px rgba(11, 68, 70, 0.25);
+  border-left: 5px solid #1983da; }
   .description__icon1 {
     height: 10rem;
     width: 10rem;
@@ -247,7 +249,8 @@ body {
   grid-column: 1/-1;
   display: flex;
   justify-content: flex-end;
-  align-items: center; }
+  align-items: center;
+  box-shadow: 2px 4px 12px rgba(11, 68, 70, 0.25); }
   .page__icon {
     background-color: #f0eeee;
     font-size: 1rem;
