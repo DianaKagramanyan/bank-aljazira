@@ -130,6 +130,15 @@ body {
   list-style: none;
   color: black; }
 
+.btn-inline {
+  border: none;
+  color: black;
+  font-size: inherit;
+  border-bottom: 1px solid gray;
+  padding-bottom: 2px;
+  display: inline-block;
+  background-color: transparent; }
+
 .side-nav {
   font-size: 1.4rem;
   list-style: none;
