@@ -32,6 +32,12 @@
   border-radius: 20%;
   background-color: #fff;
   border: .5px solid #0E416B;
+
+  @media only screen and(max-width: $bp-small){
+    height: 6rem;
+    width: 6rem;
+    padding: 1rem;
+  }
 }
 
 .heading-primary {
@@ -62,14 +68,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .login__icon {
   height: 2rem;
   width: 2rem;
   fill: white;
-
 }
 
 .user-login {

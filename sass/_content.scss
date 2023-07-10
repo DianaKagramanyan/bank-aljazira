@@ -69,6 +69,30 @@
   box-shadow: 2px 4px 12px rgba(11,68,70, .25);
   border-left: 5px solid #1983da;
 
+  @media only screen and(max-width: $bp-largest){
+    padding: 2.5rem;
+    margin-bottom: 0;
+  }
+  //
+  @media only screen and(max-width: $bp-large){
+    padding: 2rem;
+    margin-bottom: 0;
+  }
+
+  @media only screen and(max-width: $bp-medium){
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+
+  @media only screen and(max-width: $bp-small){
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+  @media only screen and(max-width: $bp-smallest){
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+
   &__icon1 {
     height: 10rem;
     width: 10rem;
@@ -77,6 +101,26 @@
     border-radius: 50%;
     padding: 1.5rem;
     margin-bottom: 3rem;
+
+    @media only screen and(max-width: $bp-large){
+      margin-bottom: 2rem;
+    }
+
+    @media only screen and(max-width: $bp-medium){
+      margin-bottom: 1.5rem;
+    }
+
+    @media only screen and(max-width: $bp-small){
+      height: 6rem;
+      width: 6rem;
+      margin-bottom: .5rem;
+    }
+
+    @media only screen and(max-width: $bp-smallest){
+      height: 5rem;
+      width: 5rem;
+      margin-bottom: 0;
+    }
   }
 
   &__icon2 {
@@ -87,6 +131,26 @@
     border-radius: 50%;
     padding: 1.5rem;
     margin-bottom: 3rem;
+
+    @media only screen and(max-width: $bp-large){
+      margin-bottom: 2rem;
+    }
+
+    @media only screen and(max-width: $bp-medium){
+      margin-bottom: 1.5rem;
+    }
+
+    @media only screen and(max-width: $bp-small){
+      height: 6rem;
+      width: 6rem;
+      margin-bottom: .5rem;
+    }
+
+    @media only screen and(max-width: $bp-smallest){
+      height: 5rem;
+      width: 5rem;
+      margin-bottom: 0;
+    }
   }
 
   &__icon3 {
@@ -97,14 +161,43 @@
     border-radius: 50%;
     padding: 1.5rem;
     margin-bottom: 3rem;
+
+    @media only screen and(max-width: $bp-large){
+      margin-bottom: 2rem;
+    }
+
+    @media only screen and(max-width: $bp-medium){
+      margin-bottom: 1.5rem;
+    }
+    @media only screen and(max-width: $bp-small){
+      height: 6rem;
+      width: 6rem;
+      margin-bottom: .5rem;
+    }
+
+    @media only screen and(max-width: $bp-smallest){
+      height: 5rem;
+      width: 5rem;
+      margin-bottom: 0;
+    }
   }
 
   &__catalog {
     margin-bottom: 1rem;
+
+    @media only screen and(max-width: $bp-small){
+      margin-bottom: .5rem;
+      font-size: 1.2rem;
+    }
   }
 
   &__name {
     margin-bottom: 1rem;
+
+    @media only screen and(max-width: $bp-small){
+      margin-bottom: .5rem;
+      font-size: 1rem;
+    }
   }
 }
 
@@ -113,4 +206,8 @@
   font-family: sans-serif;
   color: gray;
   text-align: justify;
+
+  @media only screen and(max-width: $bp-small){
+    font-size: 1rem;
+  }
 }
